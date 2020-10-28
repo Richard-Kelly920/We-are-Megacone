@@ -10,6 +10,7 @@
 
 # Contents
 <!--insert TOC with links to sections-->
+* [Landing page](https://github.com/Richard-Kelly920/we-are-megacone#landing-page)
 
 
 # Introduction
