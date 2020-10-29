@@ -1,4 +1,16 @@
-body h1 {
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,60,700');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 300px;
+font-family: 'Quicksand', sans-serif;
+color:red;
+}
+
+p {
     color:red;
-    text-transform: uppercase;
 }
