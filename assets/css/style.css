@@ -2,27 +2,43 @@
 
 
 body {
-    font-family: 'Quicksand', sans-serif;
-}
-
-h1 {
-    font-size: 150px;
-font-family: 'Exo2', sans-serif;
-color:red;
-}
-
-p {
-    color:red;
-    font-size: 50px;
-}
-.callout-container {
-height:100vh;
-background-image: url('assets/images/mega3.jpg') no-repeat;
--webkit-background-size:cover;
-background-size:cover;
-position: relative;
+    font-family: 'Quicksand';
+    background-image: url('../images/mega3.jpg')  ;
+    -webkit-background-size:cover;
+    background-repeat:no-repeat;
+    background-color: rgba(248, 247, 216, 0.7);
+    width:100%
+    height:auto;
+    
 }
 
 .navbar {
-    background-color: #000;
+    font-family:'Quicksand';
+    font-size: 30px;
+}
+/*.callout-container {
+height:100vh;
+background-image: url('assets/images/mega1.jpg') no-repeat;
+-webkit-background-size:cover;
+background-size:cover;
+position: relative;
+}*/
+
+.navbar img {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 993px) {
+  .navbar img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 50%;
+  }
+
+  .navbar img {
+    width: 50%;
+    height: auto;
+  }
 }
