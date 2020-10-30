@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:900|Quicksand:100,200,300,400,500,60,700');
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,60,700');
 
 * {padding:0;
 margin:0;
@@ -8,10 +8,14 @@ box-sizing:border-box;
 /*html {overflow-y:hidden;}*/
 body {
     font-family: 'Quicksand', sans-serif;
+    font-size:66%;
+    
+  
 }
 
-h1 {font-family: 'Merriweather', sans-serif;
-font-size: 100px;}
+h1 {font-family: 'Exo', sans-serif;
+
+margin:0;}
 
 
 
@@ -49,18 +53,23 @@ font-size: 100px;}
 .jumbotron {
     background-color: transparent;
     
+    
 }
 
 .jumbotron h1 {
-    color: white;
+    color: purple;
     font-weight: bold;
-    margin-bottom: 30px;
-    color: white;
+    margin-bottom: 100px;
+    background-color: rgba(22, 240, 22, 0.55);
 }
 
-.jumbotron .lead {
-    color: #a7a7a7;
+.jumbotron .band-message {
+    color: rgb(22, 240, 22);
     margin: 25px 0;
+    background-color: rgba(243, 79, 243, 0.55);
+    font-size:2rem;
+    font-weight: bold;
+    
 }
 
 .jumbotron small {
@@ -69,4 +78,11 @@ font-size: 100px;}
     color: #d0d0d0;
 }
 
+.navbar {
+    font-size: 2rem;
+}
 
+.btn {
+    color: purple;
+    background-color: rgb(22, 240, 22);
+}
