@@ -1,44 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,60,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900|Quicksand:100,200,300,400,500,60,700');
 
+* {padding:0;
+margin:0;
+box-sizing:border-box;
+}
 
+/*html {overflow-y:hidden;}*/
 body {
-    font-family: 'Quicksand';
-    background-image: url('../images/mega3.jpg')  ;
-    -webkit-background-size:cover;
-    background-repeat:no-repeat;
-    background-color: rgba(248, 247, 216, 0.7);
-    width:100%
-    height:auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {font-family: 'Merriweather', sans-serif;
+font-size: 100px;}
+
+
+
+.landing-container {
+    min-height: 100vh;
+
+    background: url('../images/mega3.1.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
     
 }
 
-.navbar {
-    font-family:'Quicksand';
-    font-size: 30px;
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
 }
-/*.callout-container {
-height:100vh;
-background-image: url('assets/images/mega1.jpg') no-repeat;
--webkit-background-size:cover;
-background-size:cover;
-position: relative;
+
+/*.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }*/
 
-.navbar img {
-  width: 50%;
-  height: auto;
+.jumbotron {
+    background-color: transparent;
+    
 }
 
-@media (max-width: 993px) {
-  .navbar img {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    height: 50%;
-  }
-
-  .navbar img {
-    width: 50%;
-    height: auto;
-  }
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
 }
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
