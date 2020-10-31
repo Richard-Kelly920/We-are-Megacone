@@ -2,37 +2,37 @@
 
 * {padding:0;
 margin:0;
-box-sizing:border-box;
+box-sizing: border-box;
+
 }
 
 /*html {overflow-y:hidden;}*/
 body {
     font-family: 'Quicksand', sans-serif;
     font-size:66%;
+    background-color:lightgray;
+    
+    
     
   
 }
 
 h1 {font-family: 'Exo', sans-serif;
 
-margin:0;}
+}
 
 
 
 .landing-container {
-    min-height: 100vh;
-
-    background: url('../images/mega3.1.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     
-    display: block;
-    align-items: center;
-    justify-content: center;
-
+min-height: 100vh;
+    background: url('../images/mega3.1.jpg') no-repeat bottom right fixed;
+    -webkit-background-size:cover;
+    background-size: cover;
+    display:flex;
     position: relative;
+    
+    background-position: 35%;
     
 }
 
@@ -54,12 +54,14 @@ margin:0;}
     background-color: transparent;
     
     
+    
+    
 }
 
 .jumbotron h1 {
     color: purple;
     font-weight: bold;
-    margin-bottom: 100px;
+    
     background-color: rgba(22, 240, 22, 0.55);
 }
 
@@ -80,9 +82,15 @@ margin:0;}
 
 .navbar {
     font-size: 2rem;
+    color: yellow;
+    
 }
 
 .btn {
     color: purple;
     background-color: rgb(22, 240, 22);
 }
+
+<!-----------------------------------------------Flip Cards
+
+
